@@ -17,7 +17,7 @@ header{
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .photo-profile img{
     width: 130px;
@@ -31,13 +31,13 @@ header{
 }
 
 main{
-    z-index: -1;
+    z-index: 1;
     text-align: center;
     margin-top: 50px;
 }
 
 main ul li{
-    font-size: 20px;
+    font-size: 22px;
     margin: 30px 100px;
     padding: 8px 0;
     border: 2px solid #fff;
