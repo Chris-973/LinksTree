@@ -6,12 +6,11 @@
 }
 
 body{
-    height: 120vh;
+    height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/bg.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
 }
 
 header{
@@ -21,13 +20,14 @@ header{
     margin-top: 100px;
 }
 .photo-profile img{
-    width: 200px;
+    width: 130px;
     border-radius: 50%;
     border: 1px solid #fff;
 }
 
 .pseudo h1{
     color: #fff;
+    font-size: 25px;
 }
 
 main{
@@ -37,8 +37,8 @@ main{
 }
 
 main ul li{
-    font-size: 30px;
-    margin: 30px 80px;
+    font-size: 20px;
+    margin: 30px 100px;
     padding: 8px 0;
     border: 2px solid #fff;
     border-radius: 20px;
